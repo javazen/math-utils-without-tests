@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>math-utils</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="icon" href="data:;base64,=">
+    <script type=module src="src/index.js"></script>
+  </head>
+
+  <body>
+    <div id="container">
+      <h2>Rounding a number within limits </h2>
+      
+      <div>
+        <label for="inputName">Input: </label>
+        <input id="inputText" type="text" name="inputName" value="" placeholder="type number here"/> 
+        <label for="placesName">Places: </label>
+        <input id="placesField" type="text" name="placesName" value="2" title="number of decimal places" /> 
+        <br />
+        <label for="minName">Min: </label>
+        <input id="minField" type="text" name="minName" value="" title="minimum value allowed" /> 
+        <label for="maxName">Max: </label>
+        <input id="maxField" type="text" name="maxName" value="" title="maximum value allowed" /> 
+        <br />
+        <button id="Round" disabled>Round</button>
+        <br />
+        <label for="roundedName">Rounded: </label>
+        <input id="roundedOutput" type="text" name="roundedName" value="" title="rounded" readonly/> 
+        <label for="roundedWithinLimitsName">Rounded Within Limits: </label>
+        <input id="roundedWithinLimitsOutput" type="text" name="roundedWithinLimitsName" value="" title="rounded within limits" readonly/> 
+      </div>
+
+    </div>
+  </body>
+</html>
